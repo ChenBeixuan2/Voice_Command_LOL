@@ -32,7 +32,7 @@ recognition.onresult = function(event) {
       draw_apple = "set";
     }
     else{
-        document.getElementById("status").innerHTML = "The speech has not recognized a number"; 
+        document.getElementById("status").innerHTML = "The speech has not recognized a number so say some VALID numbers"; 
     }
 }
 
